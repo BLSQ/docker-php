@@ -14,7 +14,7 @@ RUN export LANG=C.UTF-8 && \
     apt-get update
 
 # Install PHP
-RUN apt-get install -y --force-yes --fix-missing php5.6 php5.6-cli php5.6-readline php5.6-intl php5.6-cli php5.6-json php5.6-mysql php5.6-curl php5.6-dev php5.6-xdebug php5.6-xml php5.6-mcrypt php5.6-mbstring php5.6-gd php5.6-zip libxext6 fontconfig libxrender1 xfonts-base xfonts-75dpi
+RUN apt-get install -y --force-yes --fix-missing php5.6 php5.6-cli php5.6-readline php5.6-intl php5.6-cli php5.6-json php5.6-mysql php5.6-curl php5.6-dev php5.6-xdebug php5.6-xml php5.6-mcrypt php5.6-mbstring php5.6-gd php5.6-zip libxext6 fontconfig libxrender1 xfonts-base xfonts-75dpi git unzip
 
 # whhtmltppdf package
 #ENV WKHTMLTOPDF_DOWNLOAD_URL="https://downloads.wkhtmltopdf.org/0.12/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb"
